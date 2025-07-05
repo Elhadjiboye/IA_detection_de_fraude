@@ -6,7 +6,7 @@ import pandas as pd
 app = Flask(__name__)
 
 # Charger le modèle sauvegardé
-with open('../model.pkl', 'rb') as f:
+with open('model.pkl', 'rb') as f:
     model = pickle.load(f)
 
 # Route d'accueil (optionnelle)
