@@ -57,7 +57,7 @@ if submit_btn:
     }
 
     try:
-        url = "https://ia-detection-de-fraude.onrender.com/predict"
+        url = "https://ia-detection-de-fraude-api.onrender.com/predict"
         response = requests.post(url, json=data)
         prediction = response.json().get("prediction")
 
