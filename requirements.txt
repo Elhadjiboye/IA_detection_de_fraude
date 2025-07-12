@@ -2,7 +2,6 @@ alembic==1.15.2
 altair==5.5.0
 annotated-types==0.7.0
 anyio==4.8.0
-app==0.0.1
 appnope==0.1.4
 argon2-cffi==25.1.0
 argon2-cffi-bindings==21.2.0
